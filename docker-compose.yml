@@ -16,6 +16,7 @@ services:
     image: ict.ihu.gr/resumeinsync-ui:latest
     build:
       dockerfile: UI.Dockerfile
+      context: .
       args:
         RESUMEINSYNC_UI_REPOSITORY: "${RESUMEINSYNC_UI_REPOSITORY}"
         RESUMEINSYNC_UI_BRANCH: "${RESUMEINSYNC_UI_BRANCH}"
@@ -33,6 +34,7 @@ services:
     image: ict.ihu.gr/resumeinsync-api:latest
     build:
       dockerfile: API.Dockerfile
+      context: .
       args:
         LINKEDIN_DATA_IMPORTER_REPOSITORY: ${LINKEDIN_DATA_IMPORTER_REPOSITORY}
         ZOTERO_PUBLICATIONS_IMPORTER_REPOSITORY: ${ZOTERO_PUBLICATIONS_IMPORTER_REPOSITORY}
