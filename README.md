@@ -1,4 +1,4 @@
-# ResumeInSync - Deployer
+# ResumeInSync Deployer
 
 ## Overview
 
@@ -11,7 +11,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This ResumeInSync - Deployer is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for more
+This Project (ResumeInSync Deployer) is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for more
 details.
 
 ## Acknowledgments
